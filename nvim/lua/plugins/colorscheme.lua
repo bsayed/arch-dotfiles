@@ -7,6 +7,8 @@ return {
         custom_highlights = function(colors)
           return {
             WinSeparator = { fg = "#edf3f1", bg = "NONE" }, -- Set border foreground to white
+            -- CmpBorder = { fg = "#edf3f1", bg = "NONE" }, -- Set border foreground to white
+            -- LspFloatWinBorder = { fg = "#edf3f1", bg = "NONE" },
           }
         end,
         transparent_background = true, -- disables setting the background color.
