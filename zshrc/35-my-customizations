@@ -1,0 +1,7 @@
+alias wd='cd ~/Documents/repos/'
+alias oc='cd ~/Documents/repos/priv-orb-core/'
+
+eval "$(direnv hook zsh)"
+
+export ELECTRON_OZONE_PLATFORM_HINT=wayland
+
