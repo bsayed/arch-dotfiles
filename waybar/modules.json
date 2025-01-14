@@ -32,7 +32,8 @@
     "on-click-middle": "close",
     "ignore-list": [
       "Alacritty",
-      "kitty"
+      "kitty",
+      "ghostty"
     ],
     "app_ids-mapping": {
       "firefoxdeveloperedition": "firefox-developer-edition"
@@ -84,8 +85,7 @@
     "return-type": "json",
     "exec": "~/.config/ml4w/scripts/updates.sh",
     "interval": 1800,
-    "on-click": "$(cat ~/.config/ml4w/settings/terminal.sh) -e ~/.config/ml4w/scripts/installupdates.sh",
-    // "on-click": "$(cat ~/.config/ml4w/settings/terminal.sh) --class dotfiles-floating -e ~/.config/ml4w/scripts/installupdates.sh",
+    "on-click": "$(cat ~/.config/ml4w/settings/terminal.sh) --class dotfiles-floating -e ~/.config/ml4w/scripts/installupdates.sh",
     "on-click-right": "~/.config/ml4w/settings/software.sh"
   },
   // Wallpaper
@@ -188,7 +188,7 @@
   },
   // Clock
   "clock": {
-    "format": "{:%I:%M %p - %a %Od.%Om.%Y}",
+    "format": "{:%I:%M %p %a %Od.%Om.%Y}",
     "on-click": "ags toggle calendar",
     "timezone": "",
     "tooltip": false
@@ -240,7 +240,9 @@
     "modules": [
       "custom/system",
       "disk",
-      "memory"
+      "cpu",
+      "memory",
+      "hyprland/language"
     ]
   },
   // Group Tools
@@ -345,7 +347,7 @@
     "format": " {status}",
     "format-disabled": "",
     "format-off": "",
-    "interval": 3,
+    "interval": 30,
     "on-click": "blueman-manager",
     "format-no-controller": ""
   },

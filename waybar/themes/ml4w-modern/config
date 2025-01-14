@@ -28,7 +28,7 @@
 "custom/appmenu",
         "hyprland/workspaces",
         "group/links",
-        "wlr/taskbar",
+"wlr/taskbar",
         "group/quicklinks",
         "custom/empty"
     ],
@@ -43,10 +43,11 @@
     "modules-right": [
         "custom/updates",
         "pulseaudio",
-        "backlight",
+"backlight",
         "bluetooth",
         "battery", 
 "network",
+"cpu",
         "group/hardware",
         "group/tools",
 "tray",
