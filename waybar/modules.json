@@ -378,5 +378,13 @@
       ""
     ],
     "scroll-step": 1
+  },
+  // CPU Temp
+  "custom/cpu-temp": {
+    "exec": "~/.config/waybar/scripts/cpu_temp.sh",
+    "interval": 3,
+    "return-type": "json",
+    "format": "{}",
+    "tooltip": true
   }
 }

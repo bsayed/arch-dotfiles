@@ -47,6 +47,7 @@
         "bluetooth",
         "battery", 
         "network",
+        "custom/cpu-temp",
         "cpu",
         "group/tools",
         "group/hardware",
