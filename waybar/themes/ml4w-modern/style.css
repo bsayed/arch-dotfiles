@@ -467,12 +467,11 @@ window#waybar.empty #window {
     -gtk-icon-effect: highlight;
 }
 
-
 /* -----------------------------------------------------
- * CPU Temp
+ * CPU 
  * ----------------------------------------------------- */
 
-#custom-cpu{
+#cpu{
     background-color: @backgroundlight;
     font-size: 16px;
     color: @textcolor2;
@@ -482,4 +481,17 @@ window#waybar.empty #window {
     opacity:0.8;
 }
 
+/* -----------------------------------------------------
+ * CPU Temp
+ * ----------------------------------------------------- */
+
+#custom-cpu-temp{
+    background-color: @backgroundlight;
+    font-size: 16px;
+    color: @textcolor2;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px 10px 0px 10px;
+    margin: 3px 15px 3px 0px;
+    opacity:0.8;
+}
 
