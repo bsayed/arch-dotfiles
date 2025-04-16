@@ -1,4 +1,5 @@
 alias wd='cd ~/Documents/repos/'
+alias os='cd ~/Documents/repos/orb-os/'
 alias oc='cd ~/Documents/repos/priv-orb-core/'
 
 eval "$(direnv hook zsh)"
